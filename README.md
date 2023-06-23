@@ -17,4 +17,4 @@
 
 ![изображение](https://github.com/Copakaban/rsync/assets/118304300/86ecebe4-1c2c-4f1d-8343-f34a86b718c5)  
 
-
+[rsync-crontab.sh](https://github.com/Copakaban/rsync/blob/main/rsync-crontab.sh)  
