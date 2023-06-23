@@ -1,10 +1,10 @@
 #!/bin/bash
 rsync -a --delete /home/sv/ /tmp/backup
 
-if [ '$?' -eq 0 ];
+if [ "$?" -eq 0 ];
         then
-                logger 'Backup success'
+                logger "Backup success"
         else
-                logger 'Backup failed'
+                logger "Backup failed"
 fi
 
