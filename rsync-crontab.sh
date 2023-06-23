@@ -1,3 +1,4 @@
+#!/bin/bash
 rsync -a --delete /home/sv/ /tmp/backup
 
 if [ '$?' -eq 0 ];
