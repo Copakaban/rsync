@@ -1,4 +1,4 @@
-sync -a --delete /home/sv/ /tmp/backup
+rsync -a --delete /home/sv/ /tmp/backup
 
 if [ '$?' -eq 0 ];
         then
